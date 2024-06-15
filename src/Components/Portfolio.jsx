@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/2024-06-15-Projects.gif";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,34 +31,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "A food delivery software application tailored for campuses",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Independently developed a mobile application utilizing React Native with API integration of the SupaBase back-end, gaining valuable skills in front-end and back-end development.",
+    //url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "RFID based Laboratory Equipment Management System",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed and implemented an RFID-based record system to streamline the process of lab equipment management, improving accessibility and efficiency while ensuring accurate asset tracking.",
+    //url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Portfolio Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    //url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Utilizing Deep Learning for Precise Pneumonia Detection in Pediatric Chest X-rays",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Independently pursued a project aiming to enhance the detection of Pneumonia in Pediatric Chest X-rays, achieving meaningful progress in understanding deep neural networks and their use cases in Medical Image Processing.",
+    //url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="portfolio" style={{ background: "#31363F" }}>
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>

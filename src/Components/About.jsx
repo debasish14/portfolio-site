@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/pexels-adrien-olichon-1257089-2387533.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,20 +24,13 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a driven and motivated Computer Science student at Manipal University Jaipur, specializing in IoT and Intelligent Systems. With a strong foundation in software development, I am passionate about using new technologies to solve real-world problems that affect our day-to-day lives. My diverse project experience and technical skills reflect my commitment to continuous learning and innovation in the field of computer science.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["JavaScript", "React", "Python", "Node.js", "C", "Java"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -53,11 +46,12 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#31363F",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "10px",
         }}
       >
         <h2>About Myself</h2>

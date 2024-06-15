@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
+import Animation from "../images/Animation.gif";
 import PropTypes from "prop-types";
 
 /**
@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+import image from "../images/pexels-adrien-olichon-1257089-2387533.jpg";
 
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
@@ -32,8 +32,8 @@ const Home = ({ name, title }) => {
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+      <div style={{ position: "absolute", bottom: "10rem", left: "50%" }}>
+        <img src={Animation} style={{ borderRadius: "20px" }} alt={imageAltText} />
       </div>
     </section>
   );
